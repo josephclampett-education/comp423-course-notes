@@ -49,6 +49,8 @@ Once the folder is open in VS code, we are ready to create our container.
 }
 ```
 
+This configuration file creates a new container named "Rust Hello World" from the latest version of the Rust template supplied by Microsoft at `mcr.microsoft.com/devcontainers/rust`. We also add customize the container for VS Code by stipulating Docker install the Rust Analyzer extension for VS Code (`rust-lang.rust-analyzer`). Finally, we print the Rust version to the console once the container loads using the `postCreateCommand`
+
 - Finally, press [Ctrl/Cmd] + [Shift] + [P] and choose "Dev Containers: Reopen in Container." VS Code will begin downloading the container package if it is not already installed.
 
 ### Creating Rust project
@@ -76,7 +78,7 @@ cargo run
 - Finally, make a change by opening the `hello-world/src/main.rs` file and changing the code to
 ```rust
 fn main() {
-    println!("Hello, world (new)!");
+    println!("Hello COMP423");
 }
 ```
 
