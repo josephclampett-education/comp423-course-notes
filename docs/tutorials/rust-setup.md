@@ -1,6 +1,12 @@
-# Setting up a dev container for Rust
+# Hello World Tutorial for Rust Using Container
 * Primary author: [Joseph Clampett](https://github.com/josephclampett-education)
 * Reviewer: [Simon Felt](https://github.com/simofel)
+
+### Prerequisites
+1. [**Git**](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git) installed
+2. [**Visual Studio Code**](https://code.visualstudio.com/)
+3. [**Docker**](https://www.docker.com/products/docker-desktop/) installed
+
 
 ### Creating repository
 - Open your terminal and create a new directory for the project:
